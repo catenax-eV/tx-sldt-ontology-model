@@ -22,6 +22,11 @@
 # SPDX-License-Identifier: Apache-2.0
 ###############################################################
 
+# 
+# Description:
+# This Python script merges domain ontologies and taxonomies into two single files and stores them in the root directory. 
+#
+
 import os
 from rdflib import Graph, RDF, OWL, URIRef, DC, Literal
 

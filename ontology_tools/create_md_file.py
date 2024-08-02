@@ -22,6 +22,11 @@
 # SPDX-License-Identifier: Apache-2.0
 ###############################################################
 
+#
+# Description:
+# This Python script creates documentation as .md files for each domain ontology and taxonomy based on ontology/taxonomy files. It also creates mermaid diagrams for ontologies. 
+#
+
 import operator
 import mdutils
 import os
